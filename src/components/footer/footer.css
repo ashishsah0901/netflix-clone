@@ -1,0 +1,36 @@
+.footer {
+    color: #627575;
+    border-top: 5px solid #222222;
+}
+
+.footer_icons {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.footer_icons > .MuiSvgIcon-root {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.footer_container {
+    width: 50%;
+    margin: auto;
+    margin-top: 35px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contents {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer_section > p {
+    margin: 10px 0;
+    cursor: pointer;
+}

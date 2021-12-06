@@ -1,0 +1,65 @@
+.nav {
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    padding-right: 30px;
+    width: -webkit-fill-available;
+    z-index: 100;
+    transition-timing-function: ease-in;
+    transition: all 0.7s;
+}
+
+.nav_options {
+    color: white;
+    background-color: transparent;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.nav_black {
+    background-color: #111;
+    color: lightgray;
+}
+
+.nav_contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_options > p {
+    padding: 10px;
+    cursor: pointer;
+    transition-timing-function: ease-in;
+    transition: all 0.4s;
+}
+
+.nav_options > p:hover {
+    color: lightgray;
+    transform: scale(0.97);
+}
+
+.nav_logo {
+    width: 80px;
+    object-fit: contain;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.nav_avatar {
+    width: 30px;
+    cursor: pointer;
+}
+
+.nav_loginButton {
+    padding: 10px 20px;
+    font-size: 1rem !important;
+    color: #fff !important;
+    background-color: #e50914 !important;
+    font-weight: 600 !important;
+    border: none;
+    cursor: pointer;
+}
